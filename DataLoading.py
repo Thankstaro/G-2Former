@@ -11,7 +11,6 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import dgl
 from os import path
-from utils import cal_lp
 import networkx as nx
 from dgl import RowFeatNormalizer
 from ogb.nodeproppred import DglNodePropPredDataset
